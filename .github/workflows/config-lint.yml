@@ -1,0 +1,31 @@
+name: Config Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Start a session with the config
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Install tmux
+        run: sudo apt-get update && sudo apt-get install -y tmux
+
+      - name: Session smoke test
+        run: |
+          tmux -f tmux.conf new-session -d -s ci
+          tmux -f tmux.conf list-sessions
+          tmux kill-session -t ci
