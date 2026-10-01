@@ -15,3 +15,8 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   and TPM plugins
 - Setup and reference guides
 - CI that starts a session with the config
+- `ACCESSIBILITY.md`: the high-contrast status bar and short, consistent bindings.
+
+### Changed
+
+- Tidied code comments and the contributor guide.

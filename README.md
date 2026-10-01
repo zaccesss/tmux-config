@@ -22,5 +22,6 @@ install the plugins, start a session.
 
 | Path | Contents |
 | --- | --- |
+| [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | The high-contrast status bar and short, consistent bindings |
 | [`tmux.conf`](tmux.conf) | Installs to `~/.tmux.conf` on macOS, Linux and inside WSL |
 | [`guides/`](guides/) | Setup walkthrough and full reference |
