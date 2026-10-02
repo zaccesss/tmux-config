@@ -2,6 +2,9 @@
 
 The bindings keep tmux's defaults where tutorials rely on them and shorten the actions used most. The status bar is plain and high contrast.
 
+> [!NOTE]
+> Some of these settings are preferences rather than requirements. Change them freely in your own copy. If a change would help other people too, open an issue or a pull request so I can consider it for everyone.
+
 ## Vision
 
 - The status bar uses light grey (colour 250) on black, a contrast ratio of about 11:1.
@@ -18,6 +21,14 @@ The bindings keep tmux's defaults where tutorials rely on them and shorten the a
 - Esc reacts after 10 ms rather than 500 ms, so it never lags in Neovim.
 - Sessions save every 15 minutes and come back after a restart, so a layout never has to be rebuilt by hand.
 
+> [!IMPORTANT]
+> Session saving and restore come from the tmux-resurrect and tmux-continuum plugins, installed through TPM with `Ctrl+B` then `I` once the config is in place, see [guides/setup.md](guides/setup.md). Until then a restart loses the layout.
+
 ## Feedback wanted
 
 If something here gets in the way, open an [issue](https://github.com/zaccesss/tmux-config/issues/new/choose) describing what happened and what would work better.
+
+## The shared statement
+
+> [!NOTE]
+> I keep one shared accessibility statement for all my projects: [zaccesss/accessibility](https://github.com/zaccesss/accessibility) or on [my site](https://isaacadjei.me/accessibility). This file takes precedence where the two differ.
