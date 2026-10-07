@@ -48,5 +48,8 @@ binding below is pressed after the prefix, `Ctrl+B` then the key, unless marked 
   backward-char, so moving the prefix does not remove a collision, it only swaps which readline
   binding gets shadowed inside a tmux pane. There was nothing to gain by breaking the default
   every tmux tutorial teaches.
-- **Why a black background and light grey text on the status bar instead of a themed colour
-  scheme?** High contrast, chosen on purpose rather than for a coordinated look.
+- **Why does the status bar use the terminal's own colours instead of a themed colour scheme?** It
+  follows whatever the terminal shows, so it stays high contrast in both light and dark mode. The
+  current window is bold and reversed so it stands out in either. The High Contrast palette in
+  [terminal-config](https://github.com/zaccesss/terminal-config) is one pairing that switches with
+  the system appearance.
