@@ -7,7 +7,7 @@ The bindings keep tmux's defaults where tutorials rely on them and shorten the a
 
 ## Vision
 
-- The status bar uses light grey (colour 250) on black, a contrast ratio of about 11:1.
+- The status bar uses the terminal's own background and text colours, so its contrast is the terminal's own in both light and dark mode. The current window is bold and reversed rather than told apart by colour alone.
 - True colour is forced on for every pane, so Neovim's colour scheme keeps its intended contrast inside tmux.
 - Windows and panes are numbered from 1, matching how they are counted on the status bar.
 

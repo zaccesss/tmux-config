@@ -6,7 +6,7 @@
 ## What's here
 
 - **[`tmux.conf`](tmux.conf)** - the full config: tmux's default `Ctrl-b` prefix, vi-style copy
-  mode and pane navigation, a plain black status bar and TPM-managed plugins that save and restore
+  mode and pane navigation, a status bar in the terminal's own colours and TPM-managed plugins that save and restore
   sessions across a restart.
 
 ## Setup

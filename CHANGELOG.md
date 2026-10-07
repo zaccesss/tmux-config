@@ -11,6 +11,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- The status bar takes the terminal's own background and text colours instead of a fixed black bar, so it stays high contrast in light and dark mode. The current window is bold and reversed.
 - `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the plugins session restore depends on and a link to the shared accessibility statement.
 
 ### Added
