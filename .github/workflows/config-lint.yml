@@ -16,13 +16,15 @@ jobs:
   lint:
     name: Start a session with the config
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
       - name: Install tmux
-        run: sudo apt-get update && sudo apt-get install -y tmux
+        timeout-minutes: 5
+        run: sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=20 update && sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=20 install -y tmux
 
       - name: Session smoke test
         run: |
