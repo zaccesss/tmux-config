@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Screenshots and short animations of the config in action, dark and light, in the README's In action section.
+
 ### Changed
 
 - The status bar takes the terminal's own background and text colours instead of a fixed black bar, so it stays high contrast in light and dark mode. The current window is bold and reversed.
