@@ -11,6 +11,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Tabs are coloured by window name: editor cyan, git green, search yellow, shell magenta and blue for anything else. The current tab is a solid block of its colour, bold and marked with `*`.
 - Screenshots and short animations of the config in action, dark and light, in the README's In action section.
 
 ### Changed
