@@ -5,17 +5,22 @@
 
 ## In action
 
-Screenshots in Zacess Deep Contrast Dark and Light, recorded in a demo project. Each one links
-to a short animation of the same scene.
+Screenshots in four Zacess themes, Deep Contrast Dark and Light, Yellow on Black and Cream,
+recorded in a demo project. Each one links to a short animation of the same scene.
 
 ### tmux
 
-| Dark | Light |
+| Deep Contrast Dark | Deep Contrast Light |
 | --- | --- |
 | [![Dark: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-dark.webp)](docs/demo/tmux-dark.gif) | [![Light: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-light.webp)](docs/demo/tmux-light.gif) |
 
+| Yellow on Black | Cream |
+| --- | --- |
+| [![Yellow on Black: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-yellow-on-black.webp)](docs/demo/tmux-yellow-on-black.gif) | [![Cream: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-cream.webp)](docs/demo/tmux-cream.gif) |
+
 The shots show the real config in a throwaway demo project, in
-[Zacess Themes](https://github.com/zacesshq/themes) Deep Contrast Dark and Light.
+[Zacess Themes](https://github.com/zacesshq/themes) Deep Contrast Dark and Light, Yellow on Black
+and Cream.
 
 ## What's here
 
