@@ -5,13 +5,27 @@
 
 ## In action
 
-Screenshots in the High Contrast palette, dark and light. Each one links to a short animation of the same scene.
+Screenshots in Zacess Deep Contrast Dark and Light, recorded in a demo project. Each one links
+to a short animation of the same scene.
 
 ### tmux
 
 | Dark | Light |
 | --- | --- |
-| [![Dark: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, git log, ripgrep and diff panes](docs/demo/tmux-dark.webp)](docs/demo/tmux-dark.gif) | [![Light: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, git log, ripgrep and diff panes](docs/demo/tmux-light.webp)](docs/demo/tmux-light.gif) |
+| [![Dark: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-dark.webp)](docs/demo/tmux-dark.gif) | [![Light: tmux with four coloured tabs named editor, git, search and shell, the editor window split into Neovim, a ripgrep search, a git log and a diff summary](docs/demo/tmux-light.webp)](docs/demo/tmux-light.gif) |
+
+### Re-recording
+
+Each scene is a [VHS](https://github.com/charmbracelet/vhs) script in [`docs/demo`](docs/demo),
+recorded once per theme in a throwaway demo under `/tmp/demo`, so the shots show the real config
+with nothing personal on screen. The colours come from
+[Zacess Themes](https://github.com/zacesshq/themes).
+
+```sh
+brew install vhs gifsicle webp
+docs/demo/record.sh           # every scene, dark and light
+docs/demo/record.sh tmux      # one scene, by its file name
+```
 
 ## What's here
 
