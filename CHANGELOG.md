@@ -9,19 +9,13 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.0.1] - 2026-10-22
+
 ### Added
 
 - The screenshots and clips are recorded again in Zacess Deep Contrast Dark and Light, using the real config in a throwaway demo project.
 - Tabs are coloured by window name: editor cyan, git green, search yellow, shell magenta and blue for anything else. The current tab is a solid block of its colour, bold and marked with `*`.
 - Screenshots and short animations of the config in action, dark and light, in the README's In action section.
-
-### Changed
-
-- The status bar takes the terminal's own background and text colours instead of a fixed black bar, so it stays high contrast in light and dark mode. The current window is bold and reversed.
-- `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the plugins session restore depends on and a link to the shared accessibility statement.
-
-### Added
-
 - Initial release: tmux config with vi-style copy mode and pane navigation, a plain status bar
   and TPM plugins
 - Setup and reference guides
@@ -30,4 +24,6 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- The status bar takes the terminal's own background and text colours instead of a fixed black bar, so it stays high contrast in light and dark mode. The current window is bold and reversed.
+- `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the plugins session restore depends on and a link to the shared accessibility statement.
 - Tidied code comments and the contributor guide.
